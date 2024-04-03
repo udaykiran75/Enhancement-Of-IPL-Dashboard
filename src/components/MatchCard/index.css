@@ -1,0 +1,48 @@
+.card-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+  margin-bottom: 20px;
+}
+.card-image-logo {
+  max-height: 130px;
+  max-width: 130px;
+}
+.team-name {
+  font-family: Bree serif;
+  color: white;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+}
+.result {
+  font-family: Bree serif;
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+}
+.Won {
+  font-family: Bree serif;
+  color: green;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+}
+.Lost {
+  font-family: Bree serif;
+  color: red;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 30%;
+  }
+}
